@@ -6,7 +6,7 @@
         <h1 class="display-4">Message Board</h1>
         <p class="lead">This is a message board which powered by laravel</p>
     </div>
-
+<?php //dump($msgs); ?>
     <form action="{{route('save')}}" method='POST'>
         @csrf
         <div class='row'>
@@ -21,7 +21,7 @@
                     </div>
                 @endif
                 <div class="form-group">
-                    <textarea id='content' name='content' class="form-control" rows='4'></textarea>
+                    <textarea id='content' name='contents' class="form-control" rows='4'></textarea>
                     <script>
                         var editor = new Simditor({
                             textarea: $('#content')
@@ -46,17 +46,17 @@
 
     <div class='row'>
         <div class='col-12'>
-            {{--                @foreach($msgs as $msg)--}}
+                            @foreach($msgs as $msg)
             <div class='border rounded p-2 mb-2'>
-                <div class='text-primary'>ok</div>
-                <div>good</div>
+                <div class='text-primary'>{{$msg->username}}</div>
+                <div>{{$msg->contents}}</div>
             </div>
-            {{--                @endforeach--}}
+                            @endforeach
         </div>
     </div>
     <div class='row'>
         <div class='col-12'>
-            11
+             {{$msgs->links()}}
         </div>
     </div>
 </div>

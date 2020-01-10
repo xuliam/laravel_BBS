@@ -2,41 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89be4fb6-8b90-43f3-a0ba-3d82a081a781" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_coffee/page-demo.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_coffee/page-download.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_coffee/page-form.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_sass/function.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_sass/highlight.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_sass/mobile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/_sass/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/images/fork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/images/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/images/title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/images/title@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/dompurify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/mobilecheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/page-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/page-doc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/page-download.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/page-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/scripts/uploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/styles/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/simditor/styles/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/gbook.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MsgController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MsgController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Msg.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Msg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_09_010839_create_msgs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_09_010839_create_msgs_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/msg.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/msg.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578530905642</updated>
-      <workItem from="1578530909675" duration="7057000" />
+      <workItem from="1578530909675" duration="12562000" />
     </task>
     <servers />
   </component>

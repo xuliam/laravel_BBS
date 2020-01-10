@@ -15,8 +15,8 @@ class CreateMsgsTable extends Migration
     {
         Schema::create('msgs', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name',25);
-            $table->string('content', 255);
+            $table->string('username',25);
+            $table->string('contents', 255);
             $table->timestamps();
         });
     }

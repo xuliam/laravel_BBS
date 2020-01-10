@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('gbook/index', 'MsgController@index')->name('index');
-Route::get('gbook/save', 'MsgController @index')->name('save');
+Route::post('gbook/save', 'MsgController@save')->name('save');
